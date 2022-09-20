@@ -17,38 +17,38 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/BtnPL"
+        android:id="@+id/BtnPlP1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="24dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnLpP1"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/ic_baseline_favorite_24"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintBottom_toTopOf="@+id/btnAP1"
         app:layout_constraintEnd_toEndOf="@+id/btnPpP1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPpP1" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnLlP1"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/ic_baseline_favorite_border_24"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintBottom_toTopOf="@+id/btnAP1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/BtnPL"
-        app:layout_constraintTop_toBottomOf="@+id/BtnPL" />
+        app:layout_constraintStart_toStartOf="@+id/BtnPlP1"
+        app:layout_constraintTop_toBottomOf="@+id/BtnPlP1" />
 
     <androidx.constraintlayout.widget.Barrier
         android:layout_width="wrap_content"
@@ -64,12 +64,24 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
+    <ImageButton
+        android:id="@+id/btnAP1"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_arrow_upward_24"
-        tools:layout_editor_absoluteX="93dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/TLP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/0"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAP1"
+        app:layout_constraintEnd_toStartOf="@+id/btnLlP1"
+        app:layout_constraintStart_toEndOf="@+id/btnLpP1"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
