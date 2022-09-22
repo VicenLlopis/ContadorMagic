@@ -95,7 +95,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btnAP1" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnLpP2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -108,7 +108,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btnLlP2"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
@@ -125,8 +125,8 @@
         android:text="20/0"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/btnLlP2"
+        app:layout_constraintStart_toEndOf="@+id/btnLpP2"
         app:layout_constraintTop_toBottomOf="@+id/btnAP2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

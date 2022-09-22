@@ -76,10 +76,21 @@ public class FirstFragment extends Fragment {
             pp1--;
         });
 
+        binding.btnLpP1.setOnClickListener(btn ->{
+            lp1++;
+        });
+
         binding.btnPpP1.setOnClickListener(btn ->{
             pp1++;
         });
 
+        binding.btnLpP2.setOnClickListener(btn ->{
+            lp2++;
+        });
+
+        binding.btnLlP2.setOnClickListener(btn ->{
+            lp2--;
+        });
     }
 
     @Override
