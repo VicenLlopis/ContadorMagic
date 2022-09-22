@@ -91,6 +91,14 @@ public class FirstFragment extends Fragment {
         binding.btnLlP2.setOnClickListener(btn ->{
             lp2--;
         });
+
+        binding.btnPpP2.setOnClickListener(btn ->{
+            pp2++;
+        });
+
+        binding.btnPlP2.setOnClickListener(btn ->{
+            pp2--;
+        });
     }
 
     @Override
